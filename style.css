@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg-color: #000000;
+    --main-txt-color: #EAD3D9;
+    --main-font-family: 'Archivo';
+    --main-font-style: normal;
+    --main-font-weight: 400;
+}
+html,body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.main-wrapper {
+    min-height: 100vh;
+    background: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .main-wrapper {
+        padding-inline: 19px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    .main-wrapper {
+        padding-inline: 29px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 876px) {
+    .main-wrapper {
+        padding-inline: 39px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 877px) and (max-width: 1200px) {
+    .main-wrapper {
+        padding-inline: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .main-wrapper {
+        padding-inline: auto;
+        width: 100%;
+    }
+} 
+
+
+.main-content-image {
+    width: 297px;
+    height: 124px;
+    /* width: 247px; */
+    /* height: 94px; */
+}
+
+@media screen and (max-width: 320px) {
+    .main-content-image {
+        width: 121.8px;
+        height: 46px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    .main-content-image {
+        width: 151.7px;
+        height: 63.47px;
+        /* width: 247px; */
+        /* height: 94px; */
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 876px) {
+    .main-content-image {
+        width: 191.8px;
+        height: 80.25px;
+    }
+}
+
+@media screen and (min-width: 877px) and (max-width: 1200px) {
+    .main-content-image {
+        width: 231.8px;
+        height: 96.98px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .main-content-image {
+        width: 297px;
+        height: 124px;
+    }
+}
+
+
+.main-content-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.horizontal-line {
+    border: 1px solid var(--main-txt-color);
+    width: 1px;
+    height: 180px;
+    margin-inline: 49.5px;
+}
+
+@media screen and (max-width: 320px) {
+    .horizontal-line {
+        height: 72px;
+        margin-inline: 13px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    .horizontal-line {
+        height: 98px;
+        margin-inline: 22.5px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 876px) {
+    .horizontal-line {
+        height: 120px;
+        margin-inline: 38px;
+    }
+}
+
+@media screen and (min-width: 877px) and (max-width: 1200px) {
+    .horizontal-line {
+        height: 150px;
+        margin-inline: 41.3px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .horizontal-line {
+        height: 180px;
+        margin-inline: 49.5px;
+    }
+}
+
+
+.main-text {
+    color: var(--main-txt-color);
+    width: 282px;
+    height: 177px;
+}
+
+@media screen and (max-width: 320px) {
+    .main-text {
+        width: 113px;
+        height: 68px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    .main-text {
+        width: 153px;
+        height: 88px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 876px) {
+    .main-text {
+        width: 190.5px;
+        height: 132.5px;
+    }
+}
+
+@media screen and (min-width: 877px) and (max-width: 1200px) {
+    .main-text {
+        width: 230px;
+        height: 144.65px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .main-text {
+        width: 282px;
+        height: 177px;
+    }
+}
+
+
+
+.main-text h4 {
+    font-family: 'Archivo';
+    font-style: var(--main-font-style);
+    font-weight: var(--main-font-weight);
+    font-size: 50px;
+    /* font-size: 42px; */
+    line-height: 118%;
+    letter-spacing: -0.025em;
+}
+
+@media screen and (max-width: 320px) {
+    .main-text h4 {
+        font-size: 19px;
+        font-weight: 200;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    .main-text h4 {
+        font-size: 25px;
+        font-weight: 200;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 876px) {
+    .main-text h4 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 877px) and (max-width: 1200px) {
+    .main-text h4 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .main-text h4 {
+        font-size: 50px;
+    }
+}
+
+
+.mail-link {
+    color: var(--main-txt-color);
+    width: 799px;
+    height: 78px;
+    font-size: 32px;
+    font-style: var(--main-font-style);
+    font-weight: var(--main-font-weight);
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 320px) {
+    .mail-link {
+        font-size: 19px;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    .mail-link {
+        font-size: 25px;
+        margin-top: 250px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 876px) {
+    .mail-link {
+        font-size: 35px;
+        margin-top: 175px;
+    }
+}
+
+@media screen and (min-width: 877px) and (max-width: 1200px) {
+    .mail-link {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .mail-link {
+        font-size: 45px;
+    }
+}
+
+.mail-link h4 {
+    line-height: 174%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-weight: 100;
+    margin-top: 2rem;
+}
+
+/* @media screen and (max-width: 320px) {
+    .mail-link h4 {
+        font-size: 22px;
+        line-height: 200%;
+    }
+} */
+
+/* @media screen and (min-width: 321px) and (max-width: 576px) {
+    .mail-link h4 {
+        font-size: 25px;
+        line-height: 200%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 876px) {
+    .mail-link h4 {
+        font-size: 35px;
+        line-height: 200%;
+    }
+}
+
+@media screen and (min-width: 877px) and (max-width: 1200px) {
+    .mail-link h4 {
+        font-size: 40px;
+    }
+} */
+
+
+.mail-link a {
+    color: var(--main-txt-color);
+}
+
+@media screen and (max-width: 320px) {
+    .mail-link a {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+    .mail-link a {
+        display: block;
+    }
+}

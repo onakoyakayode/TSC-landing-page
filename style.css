@@ -24,12 +24,12 @@ html,body {
 
 .main-wrapper {
     min-height: 100vh;
-    background: var(--main-bg-color);
+    /* background: var(--main-bg-color); */
     background: url('/image/TSC.GIF');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +49,8 @@ html,body {
     .main-wrapper {
         padding-inline: 19px;
         width: 100%;
+        background-position: center;
+        background-size: cover;       
     }
 }
 
@@ -56,6 +58,8 @@ html,body {
     .main-wrapper {
         padding-inline: 29px;
         width: 100%;
+        background-position: center;
+        background-size: cover;
     }
 }
 
@@ -63,6 +67,8 @@ html,body {
     .main-wrapper {
         padding-inline: 39px;
         width: 100%;
+        background-position: center;
+        background-size: cover;
     }
 }
 
@@ -70,10 +76,21 @@ html,body {
     .main-wrapper {
         padding-inline: auto;
         width: 100%;
+        background-position: center;
+        background-size: cover;
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .main-wrapper {
+        padding-inline: auto;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {
     .main-wrapper {
         padding-inline: auto;
         width: 100%;

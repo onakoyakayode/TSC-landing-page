@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap'); */
 
 
 * {
@@ -10,13 +11,15 @@
 :root {
     --main-bg-color: #000000;
     --main-txt-color: #EAD3D9;
-    --main-font-family: 'Archivo';
+    --main-font-family: 'Archivo Black';
     --main-font-style: normal;
-    --main-font-weight: 400;
+    --main-font-weight: 100;
+    --line-color: #FF0040;
 }
 html,body {
     width: 100%;
     overflow-x: hidden;
+    font-family: var(--main-font-family);
 }
 
 .main-wrapper {
@@ -105,15 +108,15 @@ html,body {
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-content-image {
-        width: 231.8px;
-        height: 96.98px;
+        width: 211.8px;
+        height: 88.28px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-content-image {
-        width: 251.8px;
-        height: 108.06px;
+        width: 230px;
+        height: 96.23px;
     }
 }
 
@@ -131,7 +134,7 @@ html,body {
 }
 
 .horizontal-line {
-    border: 1px solid var(--main-txt-color);
+    border: 1px solid var(--line-color);
     width: 1px;
     height: 180px;
     margin-inline: 49.5px;
@@ -160,15 +163,15 @@ html,body {
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .horizontal-line {
-        height: 150px;
-        margin-inline: 41.3px;
+        height: 140px;
+        margin-inline: 38.56px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .horizontal-line {
-        height: 150px;
-        margin-inline: 45.3px;
+        height: 160px;
+        margin-inline: 38.56px;
     }
 }
 
@@ -217,7 +220,7 @@ html,body {
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-text {
         width: 245px;
-        height: 151.33px;
+        height: 144.33px;
     }
 }
 
@@ -231,7 +234,6 @@ html,body {
 
 
 .main-text h4 {
-    font-family: 'Archivo';
     font-style: var(--main-font-style);
     font-weight: var(--main-font-weight);
     font-size: 50px;
@@ -249,32 +251,32 @@ html,body {
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .main-text h4 {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 200;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .main-text h4 {
-        font-size: 35px;
+        font-size: 26px;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-text h4 {
-        font-size: 37px;
+        font-size: 30px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-text h4 {
-        font-size: 40px;
+        font-size: 36px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .main-text h4 {
-        font-size: 50px;
+        font-size: 42px;
     }
 }
 
@@ -285,7 +287,6 @@ html,body {
     height: 78px;
     font-size: 32px;
     font-style: var(--main-font-style);
-    font-weight: var(--main-font-weight);
     margin-top: 100px;
 }
 
@@ -298,33 +299,33 @@ html,body {
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .mail-link {
-        font-size: 25px;
+        font-size: 23px;
         margin-top: 250px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .mail-link {
-        font-size: 35px;
+        font-size: 28px;
         margin-top: 175px;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .mail-link {
-        font-size: 37px;
+        font-size: 30px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .mail-link {
-        font-size: 40px;
+        font-size: 32px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .mail-link {
-        font-size: 45px;
+        font-size: 40px;
     }
 }
 
@@ -338,6 +339,7 @@ html,body {
 
 .mail-link a {
     color: var(--main-txt-color);
+    font-weight: var(--main-font-weight);
 }
 
 @media screen and (max-width: 320px) {

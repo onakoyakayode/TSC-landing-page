@@ -25,6 +25,11 @@ html,body {
 .main-wrapper {
     min-height: 100vh;
     background: var(--main-bg-color);
+    background: url('/image/TSC.GIF');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,22 +203,22 @@ html,body {
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .main-text {
-        width: 153px;
-        height: 88px;
+        width: 135px;
+        height: 79.88px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .main-text {
-        width: 190.5px;
-        height: 132.5px;
+        width: 165px;
+        height: 97.6px;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-text {
-        width: 230px;
-        height: 144.65px;
+        width: 220px;
+        height: 118.21px;
     }
 }
 
@@ -251,14 +256,14 @@ html,body {
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .main-text h4 {
-        font-size: 22px;
+        font-size: 23px;
         font-weight: 200;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .main-text h4 {
-        font-size: 26px;
+        font-size: 27px;
     }
 }
 
@@ -293,39 +298,39 @@ html,body {
 @media screen and (max-width: 320px) {
     .mail-link {
         font-size: 19px;
-        margin-top: 150px;
+        margin-top: 120px;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .mail-link {
         font-size: 23px;
-        margin-top: 250px;
+        margin-top: 200px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .mail-link {
-        font-size: 28px;
-        margin-top: 175px;
+        font-size: 25px;
+        margin-top: 165px;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .mail-link {
-        font-size: 30px;
+        font-size: 28px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .mail-link {
-        font-size: 32px;
+        font-size: 31px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .mail-link {
-        font-size: 40px;
+        font-size: 36px;
     }
 }
 

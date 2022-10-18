@@ -110,7 +110,14 @@ html,body {
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+    .main-content-image {
+        width: 251.8px;
+        height: 108.06px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
     .main-content-image {
         width: 297px;
         height: 124px;
@@ -158,7 +165,14 @@ html,body {
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+    .horizontal-line {
+        height: 150px;
+        margin-inline: 45.3px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
     .horizontal-line {
         height: 180px;
         margin-inline: 49.5px;
@@ -200,7 +214,14 @@ html,body {
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+    .main-text {
+        width: 245px;
+        height: 151.33px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
     .main-text {
         width: 282px;
         height: 177px;
@@ -241,11 +262,17 @@ html,body {
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-text h4 {
-        font-size: 42px;
+        font-size: 37px;
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+    .main-text h4 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
     .main-text h4 {
         font-size: 50px;
     }
@@ -285,11 +312,17 @@ html,body {
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .mail-link {
+        font-size: 37px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+    .mail-link {
         font-size: 40px;
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1440px) {
     .mail-link {
         font-size: 45px;
     }
@@ -302,34 +335,6 @@ html,body {
     font-weight: 100;
     margin-top: 2rem;
 }
-
-/* @media screen and (max-width: 320px) {
-    .mail-link h4 {
-        font-size: 22px;
-        line-height: 200%;
-    }
-} */
-
-/* @media screen and (min-width: 321px) and (max-width: 576px) {
-    .mail-link h4 {
-        font-size: 25px;
-        line-height: 200%;
-    }
-}
-
-@media screen and (min-width: 577px) and (max-width: 876px) {
-    .mail-link h4 {
-        font-size: 35px;
-        line-height: 200%;
-    }
-}
-
-@media screen and (min-width: 877px) and (max-width: 1200px) {
-    .mail-link h4 {
-        font-size: 40px;
-    }
-} */
-
 
 .mail-link a {
     color: var(--main-txt-color);

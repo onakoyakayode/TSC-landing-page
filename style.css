@@ -200,7 +200,7 @@ html,body {
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .horizontal-line {
         top: 1vh;
-        height: 18vh;
+        height: 17vh;
         margin-inline: 38.56px;
     }
 }
@@ -255,9 +255,9 @@ html,body {
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-text {
-        top: 0;
+        top: 20px;
         width: 250px;
-        height: 10vh;
+        height: 20vh;
     }
 }
 
@@ -308,7 +308,7 @@ html,body {
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-text h4 {
-        font-size: 34px;
+        font-size: 40px;
     }
 }
 

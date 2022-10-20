@@ -210,29 +210,29 @@ html,body {
 
 @media screen and (max-width: 320px) {
     .main-text {
-        width: 113px;
-        height: 68px;
+        width: 130px;
+        height: 73.96px;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .main-text {
-        width: 135px;
-        height: 79.88px;
+        width: 150px;
+        height: 88.75px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .main-text {
-        width: 165px;
-        height: 97.6px;
+        width: 175px;
+        height: 103.55px;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-text {
-        width: 220px;
-        height: 130.17px;
+        width: 230px;
+        height: 136.09px;
     }
 }
 

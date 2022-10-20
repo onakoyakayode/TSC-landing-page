@@ -232,21 +232,21 @@ html,body {
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-text {
         width: 220px;
-        height: 118.21px;
+        height: 130.17px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-text {
-        width: 245px;
-        height: 144.33px;
+        width: 280px;
+        height: 165.68px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .main-text {
-        width: 282px;
-        height: 177px;
+        width: 300px;
+        height: 177.51px;
     }
 }
 
@@ -358,7 +358,7 @@ html,body {
 
 .mail-link a {
     color: var(--main-txt-color);
-    font-weight: var(--main-font-weight);
+    font-weight: 700;
 }
 
 @media screen and (max-width: 320px) {

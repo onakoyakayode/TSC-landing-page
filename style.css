@@ -37,7 +37,8 @@ html,body {
 .main-content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    height: 130px;
 }
 
 
@@ -121,28 +122,28 @@ html,body {
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .main-content-image {
         width: 191.8px;
-        height: 80.25px;
+        height: 100%;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-content-image {
         width: 211.8px;
-        height: 88.28px;
+        height: 100%;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-content-image {
         width: 230px;
-        height: 96.23px;
+        height: 100%;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .main-content-image {
         width: 297px;
-        height: 124px;
+        height: 100%;
     }
 }
 
@@ -189,7 +190,7 @@ html,body {
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .horizontal-line {
-        height: 160px;
+        height: 100%;
         margin-inline: 38.56px;
     }
 }
@@ -210,43 +211,43 @@ html,body {
 
 @media screen and (max-width: 320px) {
     .main-text {
-        width: 130px;
-        height: 73.96px;
+        width: 113px;
+        height: 68px;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .main-text {
-        width: 150px;
-        height: 88.75px;
+        width: 135px;
+        height: 79.88px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .main-text {
-        width: 175px;
-        height: 103.55px;
+        width: 165px;
+        height: 97.6px;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-text {
-        width: 230px;
-        height: 136.09px;
+        width: 200px;
+        height: 130.17px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-text {
-        width: 280px;
-        height: 165.68px;
+        width: 220px;
+        height: 100%;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .main-text {
-        width: 300px;
-        height: 177.51px;
+        width: 252px;
+        height: 100%;
     }
 }
 
@@ -351,14 +352,14 @@ html,body {
 .mail-link h4 {
     line-height: 174%;
     text-align: center;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.02em;
     font-weight: 100;
     margin-top: 2rem;
 }
 
 .mail-link a {
     color: var(--main-txt-color);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 320px) {

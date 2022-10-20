@@ -39,7 +39,7 @@ html,body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 130px;
+    height: max-content;
 }
 
 
@@ -102,19 +102,20 @@ html,body {
     height: 124px;
     /* width: 247px; */
     /* height: 94px; */
+    position: relative;
 }
 
 @media screen and (max-width: 320px) {
     .main-content-image {
         width: 121.8px;
-        height: 8vh;
+        height: 12vh;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .main-content-image {
         width: 141.7px;
-        height: 9vh;
+        height: 11vh;
         /* width: 247px; */
         /* height: 94px; */
     }
@@ -123,21 +124,22 @@ html,body {
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .main-content-image {
         width: 201.8px;
-        height: 9vh;
+        height: 100px;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-content-image {
-        width: 241.8px;
-        height: 13vh;
+        width: 272.8px;
+        height: 11vh;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-content-image {
-        width: 270px;
-        height: 20vh;
+        width: 260px;
+        height: 18vh;
+        top: 5px;
     }
 }
 
@@ -165,7 +167,7 @@ html,body {
 
 @media screen and (max-width: 320px) {
     .horizontal-line {
-        top: 5px;
+        top: 1vh;
         height: 10vh;
         margin-inline: 13px;
     }
@@ -173,8 +175,8 @@ html,body {
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .horizontal-line {
-        top: 3px;
-        height: 8vh;
+        top: 4px;
+        height: 10vh;
         margin-inline: 22.5px;
     }
 }
@@ -182,23 +184,23 @@ html,body {
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .horizontal-line {
         top: 5px;
-        height: 9vh;
+        height: 95px;
         margin-inline: 38px;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .horizontal-line {
-        top: 1px;
-        height: 14vh;
+        top: 1vh;
+        height: 10vh;
         margin-inline: 38.56px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .horizontal-line {
-        top: 20px;
-        height: 16vh;
+        top: 1vh;
+        height: 18vh;
         margin-inline: 38.56px;
     }
 }
@@ -221,13 +223,15 @@ html,body {
 
 @media screen and (max-width: 320px) {
     .main-text {
-        width: 113px;
-        height: 68px;
+        top: 4px;
+        width: 100px;
+        height: 58px;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .main-text {
+        top: 2px;
         width: 130px;
         height: 75.88px;
     }
@@ -235,21 +239,23 @@ html,body {
 
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .main-text {
+        top: 0px;
         width: 165px;
-        height: 97.6px;
+        height: 100px;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-text {
-        width: 200px;
-        height: 130.17px;
+        top: 5px;
+        width: 220px;
+        height: 12vh;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-text {
-        top: 2vh;
+        top: 0;
         width: 250px;
         height: 10vh;
     }
@@ -257,7 +263,7 @@ html,body {
 
 @media screen and (min-width: 1440px) {
     .main-text {
-        top: 1vh;
+        top: 0vh;
         width: 252px;
         height: 100%;
     }
@@ -276,33 +282,33 @@ html,body {
 
 @media screen and (max-width: 320px) {
     .main-text h4 {
-        font-size: 19px;
+        font-size: 18px;
         font-weight: 200;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .main-text h4 {
-        font-size: 21px;
+        font-size: 22px;
         font-weight: 200;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .main-text h4 {
-        font-size: 30px;
+        font-size: 31px;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-text h4 {
-        font-size: 33px;
+        font-size: 45px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-text h4 {
-        font-size: 36px;
+        font-size: 34px;
     }
 }
 

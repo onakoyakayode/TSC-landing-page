@@ -139,7 +139,7 @@ html,body {
     .main-content-image {
         width: 260px;
         height: 18vh;
-        top: 5px;
+        top: 10px;
     }
 }
 
@@ -199,8 +199,8 @@ html,body {
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .horizontal-line {
-        top: 1vh;
-        height: 17vh;
+        top: 1.2vh;
+        height: 20vh;
         margin-inline: 38.56px;
     }
 }
@@ -255,7 +255,7 @@ html,body {
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .main-text {
-        top: 20px;
+        top: 5px;
         width: 250px;
         height: 20vh;
     }
@@ -302,7 +302,7 @@ html,body {
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .main-text h4 {
-        font-size: 45px;
+        font-size: 36px;
     }
 }
 

@@ -319,33 +319,33 @@ html,body {
 
 @media screen and (min-width: 321px) and (max-width: 576px) {
     .mail-link {
-        font-size: 21px;
+        font-size: 23px;
         margin-top: 200px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 876px) {
     .mail-link {
-        font-size: 22px;
+        font-size: 25px;
         margin-top: 165px;
     }
 }
 
 @media screen and (min-width: 877px) and (max-width: 1200px) {
     .mail-link {
-        font-size: 25px;
+        font-size: 28px;
     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
     .mail-link {
-        font-size: 28px;
+        font-size: 31px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .mail-link {
-        font-size: 31px;
+        font-size: 36px;
     }
 }
 
